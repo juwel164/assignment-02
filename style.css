@@ -139,6 +139,9 @@ html, body{
 
 
 
+
+
+
 /* Specialities  */
 
 .sp_content{
@@ -199,7 +202,75 @@ html, body{
   margin-bottom: 10px;
 }
 
+.w_card{
+  width: 100%
+}
 
+.work_card{
+  display: grid;
+  grid-template-columns: repeat(3,300px );
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  margin-top: 50px;
+}
+.w_card img{
+  width: 100%;
+}
+
+
+
+
+/* FQS Section  */
+
+
+.fq_section{
+  margin-top: 50px;
+}
+
+.fq_content h2{
+  color: white ;
+  text-transform: uppercase;
+  
+}
+.fq_content p{
+  color: #797C86;
+  font-size: 14px;
+
+}
+
+.fq_option{
+  margin-top: 50px;
+}
+.option{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 0.5px solid #2b2b2b;
+  margin-bottom: 30px;
+}
+
+.option_icon img{
+  width: 40px;
+}
+.option_desc{
+  color: #797C86;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: left;
+  align-items: start;
+  margin-top: 30px;
+
+}
+
+.option_desc h4{
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+.option_desc p{
+  font-size: 11px;
+}
 
 
 
@@ -276,6 +347,12 @@ html, body{
   }
   .card{
     width: 100%;
+  }
+  .work_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
 }
